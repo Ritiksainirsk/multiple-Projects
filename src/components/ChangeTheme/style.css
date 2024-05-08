@@ -1,0 +1,40 @@
+
+:root{
+    --background: #ffffff;
+    --text-color: #000;
+    --button-bg : #000;
+    --button-text: #ffffff;
+}
+
+[data-theme="dark"]{
+    --background: #000000;
+    --text-color: #fff;
+    --button-bg: #fff;
+    --button-text : #000;
+}
+
+*{
+    margin: 0;
+}
+
+.light-dark-theme{
+    background-color: var(--background);
+    color: var(--text-color);
+    height: 100vh;
+    transition: all 0.5s ease;
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+button{
+    background: var(--button-bg);
+    color: var(--button-text);
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 7px 15px;
+    border-radius: 5rem;
+    cursor: pointer;
+}

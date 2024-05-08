@@ -1,0 +1,71 @@
+/* 
+.accordion{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+
+.container{
+    width: 500px;
+    height: 60px;
+    padding: 22px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.quition{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    & p{
+        font-weight: 800;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.answare{
+    text-align: center;
+    margin-top: 10px;
+} */
+
+
+
+
+
+.accordion {
+    border: 1px solid #ccc;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-title {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .accordion-title:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .accordion-title.active {
+    background-color: #ddd;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+  }
+  
+  

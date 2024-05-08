@@ -1,0 +1,56 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 1s ease;
+    border-radius: 0 0 14px 14px;
+    /* gap: 10px; */
+}
+
+.box h5{
+    font-size: 16px;
+    color: gray;
+    position: absolute;
+    top: 9rem;
+}
+
+.box p{
+    font-weight: 800;
+    color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.box img{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 0;
+}
+
+.box:hover{
+    box-shadow: 0 0 5px 3px gray;
+}
+
+.load-product{
+    text-align: center;
+}

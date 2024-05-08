@@ -1,0 +1,11 @@
+
+.tree-view-menu{
+    background-color: blueviolet;
+    width: 30vw;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}

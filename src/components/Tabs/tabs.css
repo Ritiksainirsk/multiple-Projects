@@ -1,0 +1,33 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tab-item{
+   padding: 10px;
+   cursor: pointer;
+   background: #7f8f8f;
+   color: #fff;
+   font-weight: 800;
+}
+
+.active{
+    background: green;
+    color: #fff;
+}
+
+.content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.picture{
+    width: 300px;
+    height: 290px;
+    border-radius: 20px;
+}
+.title{
+    margin-bottom: 15px;
+}
