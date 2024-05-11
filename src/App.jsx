@@ -16,6 +16,7 @@ import Accordion from './components/Accordion'
 import Scroll from './components/ScrollTopToBottom'
 import FoodApp from './components/Food_Recipe_app'
 import ShoppingCartRedux from './components/ShoppingCartRedux/ShoppingCartRedux'
+import ExpenceTracker from './components/Expence_Tracker'
 
 function App() {
 
@@ -33,7 +34,8 @@ function App() {
      {/* <Accordion/> */}
      {/* <Scroll/> */}
      {/* <FoodApp/> */}
-     <ShoppingCartRedux/>
+     {/* <ShoppingCartRedux/> */}
+     <ExpenceTracker/>
     </>
   )
 }
